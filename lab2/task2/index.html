@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header" aria-label="Header">
+
+  </header>
+
+  <main class="wrapper" aria-label="Main content">
+   
+    <section class="panel panel--left" aria-label="Instagram intro">
+      <div class="panel__content">
+        <img
+          src="instagram-logo.webp"
+          class="brand-logo"
+          alt="Instagram"
+        />
+
+        <h1 class="title">
+          Посмотрите, какими<br />
+          моментами из жизни<br />
+          поделились ваши
+          <span class="accent accent--orange">близкие</span><br />
+          <span class="accent accent--pink">друзья</span>.
+        </h1>
+
+        <div class="cards" aria-hidden="true">
+          <img src="cards.png" class="cards__image" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel--right" aria-label="Login">
+      <div class="login-card">
+        <h2 class="login-card__title">Войти в Instagram</h2>
+
+        <form class="login-form" action="#" method="post">
+          <div class="field">
+            <label class="sr-only" for="username">
+              Имя пользователя, номер телефона или email
+            </label>
+            <input
+              id="username"
+              name="username"
+              type="text"
+              placeholder="Имя пользователя, номер телефона или email"
+              autocomplete="username"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label class="sr-only" for="password">Пароль</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Пароль"
+              autocomplete="current-password"
+              required
+            />
+          </div>
+
+          <button class="btn btn--primary" type="submit">Войти</button>
+
+          <a class="login-card__link" href="#">Забыли пароль?</a>
+
+          <button class="btn btn--secondary" type="button">
+            Войти через Facebook
+          </button>
+
+          <a class="login-card__link login-card__link--create" href="#">
+            Создать новый аккаунт
+          </a>
+        </form>
+
+        <div class="meta" aria-label="Meta">∞ Meta</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="Footer">
+    <nav class="footer-nav" aria-label="Footer links">
+      <ul class="footer-list footer-list--wrap">
+        <li><a href="#" class="footer-link">Meta</a></li>
+        <li><a href="#" class="footer-link">Информация</a></li>
+        <li><a href="#" class="footer-link">Блог</a></li>
+        <li><a href="#" class="footer-link">Вакансии</a></li>
+        <li><a href="#" class="footer-link">Помощь</a></li>
+        <li><a href="#" class="footer-link">API</a></li>
+        <li><a href="#" class="footer-link">Конфиденциальность</a></li>
+        <li><a href="#" class="footer-link">Условия</a></li>
+        <li><a href="#" class="footer-link">Места</a></li>
+        <li><a href="#" class="footer-link">Instagram Lite</a></li>
+        <li><a href="#" class="footer-link">Meta AI</a></li>
+        <li><a href="#" class="footer-link">Threads</a></li>
+        <li><a href="#" class="footer-link">Meta Verified</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-bottom">
+      <nav aria-label="Language">
+        <a href="#" class="footer-link">Русский ᐯ</a>
+      </nav>
+      <p class="footer-copy">© 2026 Instagram from Meta</p>
+    </div>
+  </footer>
+</body>
+</html>
